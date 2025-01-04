@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
-import washwheels from '/Users/hrishikesh/Downloads/personal-portfolio-react-main/src/assets/WashWheels.png';
-import skull from '/Users/hrishikesh/Downloads/personal-portfolio-react-main/src/assets/SkullBlocker.png';
+import washwheels from '../assets/WashWheels.png';
+import skull from '../assets/SkullBlocker.png';
 const projects = [
     {
         id: 1,
