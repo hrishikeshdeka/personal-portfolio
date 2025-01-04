@@ -1,6 +1,6 @@
 
 import React from "react";
-
+import pp from '../assets/profilePic.png';
 const Hero = () => {
   return (
     <section id="home" className="hero">
@@ -63,7 +63,24 @@ const Hero = () => {
               </span>
             </div>
             <a href="#about">
-              <div className="hero-img"></div>
+            <div
+                className="hero-img"
+                style={{
+                  backgroundImage: `url(${pp})`,
+                  backgroundPosition: "50%",
+                  backgroundSize: "cover",
+                  border: "3px solid var(--color1)",
+                  borderRadius: "50%",
+                  height: "35rem",
+                  position: "relative",
+                  transition: "all 1s ease",
+                  width: "35rem",
+                  animationName: "float",
+                  animationDuration: "3s",
+                  animationIterationCount: "infinite",
+                  animationTimingFunction: "ease-in-out",
+                }}
+              ></div>
             </a>
           </div>
           <div className="skills">
