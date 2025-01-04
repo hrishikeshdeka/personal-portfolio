@@ -315,7 +315,7 @@ nav ul a:hover {
 }
 
 .hero-img {
-    background-image: url(./src/assets/profilePic.png);
+    background-image: url(../assets/profilePic.png);
     background-position: 50%;
     background-size: cover;
     border: 3px solid var(--color1);
