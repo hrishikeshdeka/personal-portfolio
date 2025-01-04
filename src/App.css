@@ -314,23 +314,6 @@ nav ul a:hover {
     color: var(--color2);
 }
 
-.hero-img {
-    background-image: url(../assets/profilePic.png);
-    background-position: 50%;
-    background-size: cover;
-    border: 3px solid var(--color1);
-    border-radius: 50%;
-    height: 35rem;
-    position: relative;
-    /* transition: all 1s ease-in-out; */
-    transition: all 1s ease;
-    width: 35rem;
-    animation-name: float;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    /* Smooth acceleration and deceleration */
-}
 
 @keyframes float {
 
